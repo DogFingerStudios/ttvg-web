@@ -113,34 +113,46 @@ function getMacDownloadFilename()
       top:1px;
     }
 
+    .div_text_shadow
+    {
+      color: rgb(0, 0, 0);
+      font-size: 48px;
+      background-color: rgb(247, 249, 250);
+      text-shadow: rgb(255, 255, 255) -3px 2px 1px;
+    }
+
+    .div_text_shadow_small
+    {
+      color: rgb(0, 0, 0);
+      font-size: 32px;
+      background-color: rgb(249, 249, 249);
+      text-shadow: rgb(255, 255, 255) -3px 2px 1px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
   </style>
   
-  </head>
-  <body>
+</head>
+
+<body>
 
 <center>
-    <h1>Tommy Tucson</h1>
-    <br/>
-    <a href="#about">About</a>&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/zethon/ttvg/wiki" target="_blank">Wiki</a>&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/zethon/ttvg" target="_blank">GitHub</a>&nbsp;&nbsp;&nbsp;
-    <a href="#downloads">Download</a>&nbsp;&nbsp;&nbsp;
-    <a href="https://www.youtube.com/channel/UC817umzuXFvE18cnsVx9JuA/videos" target="_blank">Videos</a>
-    <br/>
-    <br/>
-    <img src="https://github.com/zethon/ttvg/raw/master/docs/images/screenshot1.png"/ width="55%">
+  <div class="div_text_shadow">Tommy Tucson</div>
+  <br/>
+  <a href="#about">About</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/zethon/ttvg/wiki" target="_blank">Wiki</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/zethon/ttvg" target="_blank">GitHub</a>&nbsp;&nbsp;&nbsp;
+  <a href="#downloads">Download</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/channel/UC817umzuXFvE18cnsVx9JuA/videos" target="_blank">Videos</a>
+  <br/>
+  <br/>
+  <img src="https://github.com/zethon/ttvg/raw/master/docs/images/screenshot1.png" width="35%">
 </center>
 
-<br/></br>
-
-<a id="about"/><h2>About</h2>
-
-<p>Tommy Tucson is an open source role-playing game based on the fictional character Tommy Tucson. All characters and events in this video game, even those based on real people, are entirely fictional. This video game contains coarse language and due to its content it should not be played by anyone.</p>
-
-<br/>
-
-<a id="downloads"/><h2>Downloads</h2>
-
+<a id="downloads"/>
+<div class="div_text_shadow_small">Download</div>
 
 <table class="tg">
 <thead>
