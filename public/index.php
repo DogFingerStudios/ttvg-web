@@ -148,7 +148,7 @@ function getMacDownloadFilename()
   <a href="https://www.youtube.com/channel/UC817umzuXFvE18cnsVx9JuA/videos" target="_blank">Videos</a>
   <br/>
   <br/>
-  <img src="https://github.com/zethon/ttvg/raw/master/docs/images/screenshot1.png" width="35%">
+  <img src="https://github.com/zethon/ttvg/raw/master/docs/images/screenshot1.png" width="45%">
 </center>
 
 <a id="downloads"/>
