@@ -1,0 +1,29 @@
+name: FTP Test
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    name: 🚀 Deploy website
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: 📂 FTP Installer
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        if: github.ref == 'refs/heads/master'"
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /public_html/
+          local-dir: ${{github.workspace}}/public
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **config.ini**
+            ${{github.workspace}}/public/downloads/**
+          
