@@ -14,7 +14,6 @@ jobs:
 
       - name: 📂 FTP Installer
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
-        if: github.ref == 'refs/heads/master'"
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
