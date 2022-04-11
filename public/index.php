@@ -144,7 +144,6 @@ function getMacDownloadFilename()
   <a href="#about">About</a>&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/zethon/ttvg/wiki" target="_blank">Wiki</a>&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/zethon/ttvg" target="_blank">GitHub</a>&nbsp;&nbsp;&nbsp;
-  <a href="#downloads">Download</a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.youtube.com/channel/UC817umzuXFvE18cnsVx9JuA/videos" target="_blank">Videos</a>
   <br/>
   <br/>
