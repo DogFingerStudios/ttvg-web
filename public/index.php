@@ -17,9 +17,7 @@ function human_filesize($bytes, $decimals = 2)
 define("PRODUCTION", 0);
 define("DOWNLOAD_PATH", $config['download_path']);
 define("DOWNLOAD_URL", $config['download_url']);
-// define("DOWNLOAD_PATH", $config['download_folder']);
-// define("DOWNLOAD_URL", $config['download_url']);
-// define('LOCAL_PATH_PREFIX', $config['local_prefix_folder']);
+
 
 function getWindowsDownloadFilename()
 {
@@ -141,10 +139,10 @@ function getMacDownloadFilename()
 <center>
   <div class="div_text_shadow">Tommy Tucson</div>
   <br/>
-  <a href="#about">About</a>&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/zethon/ttvg/wiki" target="_blank">Wiki</a>&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/zethon/ttvg" target="_blank">GitHub</a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.youtube.com/channel/UC817umzuXFvE18cnsVx9JuA/videos" target="_blank">Videos</a>
+  <a href="https://amb.dog" target="_blank">Forum</a>&nbsp;&nbsp;&nbsp;
   <br/>
   <br/>
   <img src="https://github.com/zethon/ttvg/raw/master/docs/images/screenshot1.png" width="45%">
